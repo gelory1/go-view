@@ -14,6 +14,7 @@ const chartRoutes: RouteRecordRaw = {
     title: '工作空间',
     isRoot: true,
     noKeepAlive: true,
+    allPage: true
   }
 }
 

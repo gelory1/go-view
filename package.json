@@ -1,12 +1,12 @@
 {
-  "name": "go-view",
+  "name": "RuiZhongProject",
   "version": "2.1.6",
   "engines": {
     "node": ">=16.14 <18.0.0"
   },
   "scripts": {
     "dev": "vite --host",
-    "build": "vue-tsc --noEmit && vite build",
+    "build": "vite build",
     "preview": "vite preview",
     "new": "plop --plopfile ./plop/plopfile.js",
     "postinstall": "husky install",

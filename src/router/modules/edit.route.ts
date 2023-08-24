@@ -1,4 +1,4 @@
-import { RouteRecordRaw } from 'vue-router'
+import { RouteRecordRaw, useRoute } from 'vue-router'
 import { EditEnum } from '@/enums/pageEnum'
 
 // 引入路径
@@ -12,7 +12,8 @@ const chartRoutes: RouteRecordRaw = {
   component: importPath[EditEnum.CHART_EDIT_NAME],
   meta: {
     title: '编辑',
-    isRoot: true
+    isRoot: true,
+    allPage: true
   }
 }
 

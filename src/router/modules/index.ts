@@ -1,10 +1,10 @@
-import projectRoutes from './project.router'
+import stageRoutes from './stage.router'
 import chartRoutes from './chart.route'
 import previewRoutes from './preview.route'
 import editRoutes from './edit.route'
 
 export default {
-  projectRoutes,
+  stageRoutes,
   chartRoutes,
   previewRoutes,
   editRoutes

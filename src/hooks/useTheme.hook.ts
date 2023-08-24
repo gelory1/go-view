@@ -44,7 +44,7 @@ export const useThemeOverridesHook = () => {
 }
 
 // 返回暗黑主题
-export const useDarkThemeHook = () => {
+export const useGreenThemeHook = () => {
   const designStore = useDesignStore()
   return computed(() => (designStore.getDarkTheme ? darkTheme : undefined))
 }

@@ -8,7 +8,7 @@
   >
     <go-app-provider>
       <I18n></I18n>
-      <router-view></router-view>
+      <Layout></Layout>
     </go-app-provider>
   </n-config-provider>
 </template>
@@ -17,10 +17,12 @@
 import { NConfigProvider } from 'naive-ui'
 import { GoAppProvider } from '@/components/GoAppProvider'
 import { I18n } from '@/components/I18n'
-import { useDarkThemeHook, useThemeOverridesHook, useCode, useLang } from '@/hooks'
+import { useGreenThemeHook, useThemeOverridesHook, useCode, useLang } from '@/hooks'
+
+import Layout from './layout/index.vue'
 
 // 暗黑主题
-const darkTheme = useDarkThemeHook()
+const darkTheme = useGreenThemeHook()
 
 // 主题配置
 const overridesTheme = useThemeOverridesHook()

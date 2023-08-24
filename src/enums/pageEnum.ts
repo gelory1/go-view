@@ -31,16 +31,31 @@ export enum PageEnum {
 
 
   // 首页
-  BASE_HOME = '/project',
-  BASE_HOME_NAME = 'Project',
+  BASE_HOME = '/',
+  BASE_HOME_NAME = 'Home',
 
-  // 我的项目
-  BASE_HOME_ITEMS = '/project/items',
-  BASE_HOME_ITEMS_NAME = 'Project-Items',
+  // 我的切片
+  BASE_STAGE = '/stage',
+  BASE_STAGE_NAME = 'Stage',
+  BASE_STAGE_ITEMS = '/stage/items',
+  BASE_STAGE_ITEMS_NAME = 'StageItems',
 
-  // 我的模板
-  BASE_HOME_TEMPLATE = '/project/my-template',
-  BASE_HOME_TEMPLATE_NAME = 'Project-My-Template',
+  // 看板
+  BASE_CUT = '/cut',
+  BASE_CUT_NAME = 'Cut',
+
+
+  // 运行控制台
+  BASE_CONTROL = '/control',
+  BASE_CONTROL_NAME = 'Control',
+
+  // 数据中心
+  BASE_DATA = '/data',
+  BASE_DATA_NAME = 'Data',
+
+  // 系统设置
+  BASE_SET = '/set',
+  BASE_SET_NAME = 'Set',
 
   // 模板市场
   BASE_HOME_TEMPLATE_MARKET = '/project/template-market',

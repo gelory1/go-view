@@ -6,7 +6,7 @@ import designColor from './designColor.json'
 export const lang = LangEnum.ZH
 
 // 水印文字
-export const watermarkText = "GoView 低代码平台"
+export const watermarkText = "瑞中数据 0代码平台"
 
 // 分组名称
 export const groupTitle = "分组"
@@ -14,7 +14,7 @@ export const groupTitle = "分组"
 // 主题配置
 export const theme = {
   // 默认是否开启深色主题
-  darkTheme: true,
+  darkTheme: false,
   //默认主题色
   appTheme: '#51d6a9',
   appThemeDetail: null,

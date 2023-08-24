@@ -81,7 +81,7 @@ export default ({ mode }) => defineConfig({
     })
   ],
   build: {
-    target: 'es2015',
+    target: 'esnext',
     outDir: OUTPUT_DIR,
     // minify: 'terser', // 如果需要用terser混淆，可打开这两行
     // terserOptions: terserOptions,

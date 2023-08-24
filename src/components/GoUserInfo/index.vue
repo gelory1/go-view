@@ -21,7 +21,7 @@
   <!-- 系统设置 model -->
   <go-system-set v-model:modelShow="modelShow"></go-system-set>
   <!-- 关于软件 model -->
-  <go-system-info v-model:modelShow="modelShowInfo"></go-system-info>
+<!--  <go-system-info v-model:modelShow="modelShowInfo"></go-system-info>-->
 </template>
 
 <script lang="ts" setup>
@@ -64,7 +64,7 @@ const renderUserInfo = () => {
       }),
       h('div', null, [
         h('div', null, [
-          h(NText, { depth: 2 }, { default: () => '奔跑的面条' })
+          h(NText, { depth: 2 }, { default: () => '瑞中数据' })
         ])
       ])
     ]

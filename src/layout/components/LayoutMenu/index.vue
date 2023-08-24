@@ -13,29 +13,20 @@
   >
     <div class="go-project-sider-flex">
       <aside>
-        <n-space vertical class="go-project-sider-top">
-          <project-layout-create :collapsed="collapsed"></project-layout-create>
-        </n-space>
         <n-menu
           :value="menuValue"
           :options="menuOptions"
           :collapsed-width="getAsideCollapsedWidth"
           :collapsed-icon-size="22"
           :default-expanded-keys="defaultExpandedKeys"
-       ></n-menu>
+        ></n-menu>
       </aside>
-      <!-- 底部提示 -->
-      <div class="sider-bottom">
-        <project-layout-aside-footer :collapsed="collapsed"></project-layout-aside-footer>
-      </div>
     </div>
   </n-layout-sider>
 </template>
 
 <script setup lang="ts">
 import { ref, computed, onMounted, onUnmounted, toRefs } from 'vue'
-import { ProjectLayoutCreate } from '../ProjectLayoutCreate/index'
-import { ProjectLayoutAsideFooter } from '../ProjectLayoutAsideFooter/index'
 import { asideWidth } from '@/settings/designSetting'
 import { useRoute } from 'vue-router'
 import { useSettingStore } from '@/store/modules/settingStore/settingStore'

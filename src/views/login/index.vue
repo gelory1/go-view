@@ -107,10 +107,6 @@
         </div>
       </div>
     </div>
-
-    <div class="go-login-box-footer">
-      <layout-footer></layout-footer>
-    </div>
   </div>
 </template>
 
@@ -296,6 +292,11 @@ $carousel-image-height: 60vh;
         text-align: center;
         height: $account-img-height;
         margin-bottom: 20px;
+        img{
+          width: 100%;
+          height: 160px;
+          object-fit: cover;
+        }
       }
     }
   }
